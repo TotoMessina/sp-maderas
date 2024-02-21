@@ -45,7 +45,7 @@ nav ul li{
         width: 100%;
         animation-duration: 2s;
         animation-name: aparecer;
-        animation-iteration-count: ;
+        animation-iteration-count: 1;
     }
 }
 
@@ -123,7 +123,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   overflow: hidden;
   animation-duration: 2s;
   animation-name: aparecer;
@@ -262,9 +262,28 @@ section {
     }
 }
 
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
 #mapa{
     width: 50%;
     height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.direccion{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  h2{
+    width: 20%;
+  }
+  padding-bottom: 40px;
 }
 
 footer{
@@ -277,6 +296,39 @@ footer img{
     width: 190px;
     height: 100px;
 }
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: end;
+}
+
+.grid-contacto{
+  display: grid;
+  grid-template-columns: repeat(2, 0.8fr);
+  grid-gap: 10px;
+  align-self: end;
+  justify-content: center;
+  img{
+    width: 10%;
+    height: auto;
+  }
+}
+
+.con-lin{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+
+
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -303,5 +355,16 @@ footer img{
     }
     100%{
       opacity: 1;
+    }
+  }
+
+  .boton-whatsapp {
+    position: fixed;
+    bottom: 100px; /* Ajusta la distancia desde la parte inferior */
+    right: -350px; /* Ajusta la distancia desde la derecha */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    img{
+      width: 20%;
+      height: auto;
     }
   }
