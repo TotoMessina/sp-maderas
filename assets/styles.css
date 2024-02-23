@@ -397,6 +397,19 @@ footer img{
     background-color: #061f0b;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 8);
   }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 700px;
+  }
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 700px;
+  }  
   
 @media (max-width: 769px) {
 *{
@@ -597,8 +610,8 @@ section {
 /* SWIPER */
 
 .swiper {
-  width: 150px;
-  height: 350px;
+  width: 100px;
+  height: 250px;
   padding: 50px 0;
 }
 
@@ -606,6 +619,7 @@ section {
   position: relative;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  font-size: x-small;
 }
 
 .swiper-slide h2 {
@@ -667,11 +681,12 @@ section {
 .map-container {
   display: flex;
   justify-content: center;
+  max-height: fit-content;
 }
 
 #mapa{
     width: 50%;
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -769,5 +784,19 @@ footer img{
 #myBtn:hover {
   background-color: #061f0b;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 8);
+}
+
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 350px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 350px;
 }
 }
