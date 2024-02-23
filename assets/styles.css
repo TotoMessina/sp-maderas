@@ -516,7 +516,7 @@ nav ul li{
   animation-name: aparecer;
   animation-iteration-count: initial;
   img{
-      width: 270px;
+      width: 100px;
       height: auto;
       transition: 1s;
       border-radius: 170px;
@@ -541,7 +541,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 50vh;
   overflow: hidden;
   animation-duration: 2s;
   animation-name: aparecer;
@@ -553,7 +553,6 @@ section {
   flex-direction: row;
   justify-content: center;
   align-items: center; 
-  gap: 30px;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.28) 0%,
@@ -613,13 +612,13 @@ section {
   width: 100px;
   height: 250px;
   padding: 50px 0;
+  margin-right: 40px;
 }
 
 .swiper-slide {
   position: relative;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  font-size: x-small;
 }
 
 .swiper-slide h2 {
@@ -628,7 +627,7 @@ section {
   left: 0;
   color: #fff;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.5rem;
   line-height: 1.4;
   margin: 0 0 20px 20px;
 }
@@ -643,12 +642,12 @@ section {
       no-repeat 50% 50% / cover;
 }
 
-.swiper-slide:nth-child(3n) {
+.swiper-slide:nth-child(4n) {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/tarjeta-3.png")
       no-repeat 50% 0% / cover;
 }
 
-.swiper-slide:nth-child(4n) {
+.swiper-slide:nth-child(3n) {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/tarjeta-4.png")
       no-repeat 50% 50% / cover;
 }
@@ -698,7 +697,8 @@ section {
   justify-content: center;
   align-items: center;
   h2{
-    width: 20%;
+    width: 50%;
+    font-size: medium;
   }
   padding-bottom: 40px;
 }
@@ -741,6 +741,7 @@ footer img{
   justify-content: start;
   align-items: center;
   gap: 10px;
+  font-size: x-small;
 }
 
 .boton-whatsapp {
