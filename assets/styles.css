@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Open Sans';
+    font-family: "Open Sans", sans-serif;
 }
 
 a{
@@ -10,9 +10,10 @@ a{
 }
 
 nav{
-    background-color: #092B0F;
-    display: flex;
-    width: 100%;
+  background: rgb(9,43,15);
+  background: linear-gradient(90deg, rgba(9,43,15,1) 0%, rgba(48,179,71,1) 100%);
+  display: flex;
+  width: 100%;
 }
 
 nav img{
@@ -46,6 +47,7 @@ nav ul li{
         animation-duration: 2s;
         animation-name: aparecer;
         animation-iteration-count: 1;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -100,6 +102,7 @@ nav ul li{
         width: 350px;
         height: auto;
         transition: 1s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
     img:hover{
         transform: scale(0.9);
@@ -146,6 +149,10 @@ section {
   width: min(900px, 100%);
   box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
   z-index: 10;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .info {
@@ -259,6 +266,7 @@ section {
     width: 100%;
     img{
         width: 100%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -287,9 +295,10 @@ section {
 }
 
 footer{
-    background-color: #092B0F;
-    display: flex;
-    width: 100%;
+  background: rgb(9,43,15);
+  background: linear-gradient(90deg, rgba(48,179,71,1) 0%, rgba(9,43,15,1) 100%);
+  display: flex;
+  width: 100%;
 }
 
 footer img{
@@ -411,11 +420,11 @@ footer img{
     width: 700px;
   }  
   
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
 *{
   margin: 0;
   padding: 0;
-  font-family:'Open Sans';
+  font-family: "Open Sans", sans-serif;
 }
 
 a{
@@ -424,7 +433,8 @@ a{
 }
 
 nav{
-  background-color: #092B0F;
+  background: rgb(9,43,15);
+  background: linear-gradient(90deg, rgba(9,43,15,1) 0%, rgba(48,179,71,1) 100%);
   display: flex;
   width: 100%;
 }
@@ -446,7 +456,7 @@ nav ul{
 }
 
 nav ul li{
-  font-size: larger;
+  font-size: x-small;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -461,6 +471,7 @@ nav ul li{
       animation-duration: 2s;
       animation-name: aparecer;
       animation-iteration-count: 1;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -474,7 +485,7 @@ nav ul li{
   animation-name: aparecer;
   animation-iteration-count: initial;
   img{
-    width: 50%;
+    width: 30%;
     height: auto;
   }
 }
@@ -520,6 +531,7 @@ nav ul li{
       height: auto;
       transition: 1s;
       border-radius: 170px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
   img:hover{
       transform: scale(0.9);
@@ -563,6 +575,10 @@ section {
   width: min(900px, 100%);
   box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
   z-index: 10;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .info {
@@ -674,6 +690,7 @@ section {
     width: 100%;
     img{
         width: 100%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -704,10 +721,12 @@ section {
 }
 
 footer{
-    background-color: #092B0F;
-    display: flex;
-    width: 100%;
-    padding: 20px 0;
+  background: rgb(9,43,15);
+  background: linear-gradient(90deg, rgba(48,179,71,1) 0%, rgba(9,43,15,1) 100%);
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer img{
@@ -786,7 +805,6 @@ footer img{
   background-color: #061f0b;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 8);
 }
-
 
 .gmap_canvas {
   overflow: hidden;
