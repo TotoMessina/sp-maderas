@@ -322,7 +322,7 @@ footer img{
   align-self: end;
   justify-content: center;
   img{
-    width: 10%;
+    width: 5%;
     height: auto;
   }
 }
@@ -761,6 +761,9 @@ footer img{
   align-items: center;
   gap: 10px;
   font-size: x-small;
+  img{
+    width: 15%;
+  }
 }
 
 .boton-whatsapp {
