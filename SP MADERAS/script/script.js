@@ -21,4 +21,42 @@ function inicializarMapa() {
       map: mapa,
       title: 'SP Maderas' // Título del marcador (opcional)
     });
+  };
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                window.scrollTo({
+                    top: target.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});
+
+
+// Cuando el usuario hace scroll, verifica si debe mostrar u ocultar el botón
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+  if (scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
   }
+}
+
+// Cuando el usuario hace clic en el botón, scroll hasta la parte superior de la página de forma suave
+function topFunction() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
