@@ -789,6 +789,7 @@ footer img{
 
 .con-lin img{
   width: 15%;
+  height: auto;
   filter: drop-shadow(
     0 0 10px rgba(0, 0, 0, .8)
   );
