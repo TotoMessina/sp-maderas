@@ -481,13 +481,15 @@ nav ul li{
 .fondo-inicial{
   width: 100%;
   height: auto;
-  img{
-      width: 100%;
-      animation-duration: 2s;
-      animation-name: aparecer;
-      animation-iteration-count: 1;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  }
+}
+
+.fondo-inicial img{
+  width: 100%;
+  height: auto;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .fondo-np{
