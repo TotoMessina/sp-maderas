@@ -501,13 +501,14 @@ nav ul li{
   animation-duration: 2s;
   animation-name: aparecer;
   animation-iteration-count: initial;
-  img{
-    width: 30%;
-    height: auto;
-    filter: drop-shadow(
-      0 0 10px rgba(0, 0, 0, .8)
-    )
-  }
+}
+
+.fondo-np img{
+  width: 30%;
+  height: auto;
+  filter: drop-shadow(
+    0 0 10px rgba(0, 0, 0, .8)
+  )
 }
 
 .texto-np{
@@ -546,18 +547,20 @@ nav ul li{
   animation-duration: 2s;
   animation-name: aparecer;
   animation-iteration-count: initial;
-  img{
-      width: 100px;
-      height: auto;
-      transition: 1s;
-      border-radius: 170px;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  }
-  img:hover{
-      transform: scale(0.9);
-      transition: 1s;
-  }
 }
+
+.imagenes img{
+  width: 100px;
+  height: auto;
+  transition: 1s;
+  border-radius: 170px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.imagenes img:hover{
+  transform: scale(0.9);
+  transition: 1s;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *,
@@ -708,10 +711,11 @@ section {
 
 .fondo-ubi{
     width: 100%;
-    img{
-        width: 100%;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    }
+}
+
+.fondo-ubi img{
+  width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .map-container {
@@ -781,12 +785,13 @@ footer img{
   align-items: center;
   gap: 10px;
   font-size: x-small;
-  img{
-    width: 15%;
-    filter: drop-shadow(
-      0 0 10px rgba(0, 0, 0, .8)
-    );
-  }
+}
+
+.con-lin img{
+  width: 15%;
+  filter: drop-shadow(
+    0 0 10px rgba(0, 0, 0, .8)
+  );
 }
 
 .boton-whatsapp {
@@ -795,12 +800,14 @@ footer img{
   left:20px;
   display: flex;
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
-  img{
-    width: 50px;
-    height: auto;
-  }
   border-radius: 50%;
 }
+
+.boton-whatsapp img{
+  width: 50px;
+  height: auto;
+}
+
 .boton-whatsapp:hover {
   img{
     transform: scale(1.2);
