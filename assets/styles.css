@@ -314,6 +314,11 @@ footer{
 footer img{
     width: 190px;
     height: 100px;
+    img{
+      filter: drop-shadow(
+      0 0 10px rgba(0, 0, 0, .8)
+    );
+    }
 }
 
 .contenedor{
@@ -497,6 +502,9 @@ nav ul li{
   img{
     width: 30%;
     height: auto;
+    filter: drop-shadow(
+      0 0 10px rgba(0, 0, 0, .8)
+    )
   }
 }
 
@@ -773,6 +781,9 @@ footer img{
   font-size: x-small;
   img{
     width: 15%;
+    filter: drop-shadow(
+      0 0 10px rgba(0, 0, 0, .8)
+    );
   }
 }
 
