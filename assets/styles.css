@@ -334,14 +334,14 @@ footer img{
 
 .grid-contacto{
   display: grid;
-  grid-template-columns: repeat(2, 0.8fr);
+  grid-template-columns: repeat(2, 0.3fr);
   grid-gap: 10px;
-  align-self: end;
-  justify-content: center;
-  img{
-    width: 5%;
-    height: auto;
-  }
+  justify-content: end;
+}
+
+.grid-contacto img{
+  width: 15%;
+  height: auto;
 }
 
 .con-lin{
@@ -437,7 +437,46 @@ footer img{
     width: 700px;
   }  
   
-@media (max-width: 1023px) {
+.mdu-display{
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.mdu{
+  text-align: start;
+  margin: 0 20%;
+}
+
+.mdu p{
+  color: #5D5C5C;
+  font-weight: 600;
+}
+
+.mdu ul{
+  margin: 0 5%;
+  color: #5D5C5C
+}
+
+.mdu-img img{
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  scale: 0.9;
+  transition: 1s;
+}
+
+.mdu-img img:hover{
+  scale: 1;
+  transition: 1s;
+  filter: drop-shadow(
+    0 0 10px rgba(0, 0, 0, .8)
+  )
+}
+
+@media (max-width: 769px) {
 *{
   margin: 0;
   padding: 0;
@@ -771,14 +810,15 @@ footer img{
 
 .grid-contacto{
   display: grid;
-  grid-template-columns: repeat(2, 0.8fr);
+  grid-template-columns: repeat(1, 0.3fr);
   grid-gap: 10px;
-  align-self: end;
-  justify-content: center;
-  img{
-    width: 10%;
-    height: auto;
-  }
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.grid-contacto img{
+  width: 15%;
+  height: auto;
 }
 
 .con-lin{
@@ -853,5 +893,45 @@ footer img{
   text-align: right;
   height: 200px;
   width: 350px;
+}
+
+.mdu-display{
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  font-size: small;
+}
+
+.mdu{
+  text-align: start;
+  margin: 0 20%;
+}
+
+.mdu p{
+  color: #5D5C5C;
+  font-weight: 600;
+}
+
+.mdu ul{
+  margin: 0 5%;
+  color: #5D5C5C
+}
+
+.mdu-img img{
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  scale: 0.9;
+  transition: 1s;
+}
+
+.mdu-img img:hover{
+  scale: 1;
+  transition: 1s;
+  filter: drop-shadow(
+    0 0 10px rgba(0, 0, 0, .8)
+  )
 }
 }
