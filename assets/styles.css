@@ -49,6 +49,7 @@ nav ul li{
 .fondo-inicial{
     width: 100%;
     height: auto;
+    padding-top: 100px;
     img{
         width: 100%;
         animation-duration: 2s;
@@ -522,6 +523,7 @@ nav ul li{
 .fondo-inicial{
   width: 100%;
   height: auto;
+  padding-top: 50px;
 }
 
 .fondo-inicial img{
