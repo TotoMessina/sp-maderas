@@ -969,12 +969,13 @@ footer img{
 .grupo{
   margin: 40px;
   margin-bottom: 0;
-  img{
+}
+
+.grupo img{
     border-radius: 0%;
     width: 100%;
     height: auto;
     border-radius: 5px;
-  }
 }
 
 .img-img{
